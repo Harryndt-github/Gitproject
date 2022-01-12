@@ -1,3 +1,7 @@
 table{
-    border:1px solid black;
+    border:13px solid #94e3fe;
+    background-color: burlywood;
+}
+.center{
+    text-align: center;
 }

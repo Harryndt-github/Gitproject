@@ -11,9 +11,10 @@
 <body>
 <form action="">
     <table id="table">
-        <tr>
-            <td class="header" colspan="2">SỞ THÍCH CỦA BẠN</td>
+        <tr bgcolor="#ff4500">
+            <td class="center" colspan="2">SỞ THÍCH CỦA BẠN</td>
         </tr>
+        <div style="front-size:5px; color:red">
         <tr>
             <td class="info">Họ và tên</td>
             <td><input type="text" name="yourname" size="30"></td>
@@ -25,6 +26,7 @@
         <tr>
             <td class="info">Sở thích</td>
             <td>
+        </div>
                 <table id="hobby">
                     <tr>
                         <td><label><input type="checkbox" name="hobby" value="Thể thao">Thể thao</label></td>
@@ -51,6 +53,7 @@
         </tr>
     </table>
 </form>
+<-- Bài tập 1 tạo bảng cơ bản -->
 <ul>Việt Nam</ul>
 <ol>
     <li>Hà Nội</li>
@@ -72,6 +75,40 @@
     <li>Shanghai</li>
     <li>Tianjin</li>
 </ol>
+-- Bài tập tạo from đăng ký người dùng --
+<br>
+<from>
+    Họ và tên: <br>
+    <input type="text" name="username"><br>
+    Email: <br>
+    <input type="text" name="psw"><br>
+    Số điện thoại: <br>
+    <input type="text" name="phone"><br>
+    <input type="checkbox" name="gender" value="male" checked> Nam
+    <input type="checkbox" name="gender" value="female" checked> Nữ<br>
+    <button>Đăng ký</button><br>
+    <br>
+</from>
+<from action="">
+    <table ad="table">
+    <tr bgcolor="#ff4500">
+        <td class="center" colspan="2">ĐĂNG KÝ HỌC VIÊN</td>
+    </tr>
+        <tr>
+            <td class="info">Họ và tên:
+            <td><input type="text" name="yourname" size="20"></td>
+        </tr>
+        <tr>
+            <td class="info">Ngày sinh:
+            <td><input type="text" name="birthday"></td>
+        </tr>
+        <tr>
+            <td class="info"> Giới tính:
+            <input type="checkbox" name="gender" value="male"> Nam
+            <input type="checkbox" name="gender" value="female"> Nữ<br>
+            </td>
+        </tr>
+    </table>
+</from>
 </body>
-
 </html>
